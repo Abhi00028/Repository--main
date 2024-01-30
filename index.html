@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/inventory.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Header Content: Logo, Brand Name, etc. -->
+        <div class="header-content">
+            <img src="images/logo.png" alt="Company Logo" class="logo" />
+            <h1>CAM_CONNECT</h1>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Review">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="checkout.html" method="get" id="products-form">
+            
+            <div class="row">
+                <span class="info">Please select a product to buy</span>
+            </div>
+
+            <div class="products">
+                <!-- Canon EOS 5D Mark IV -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/canon5D.jpeg" alt="Canon EOS 5D Mark IV" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[1]" value="Canon EOS 5D Mark IV">
+                            <strong>Canon EOS 5D Mark IV $2499</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Nikon D850 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/nikonD850.jpeg" alt="Nikon D850" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[2]" value="Nikon D850">
+                            <strong>Nikon D850 $2796</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Sony Alpha a7 III -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/sonyA7III.jpeg" alt="Sony Alpha a7 III" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[3]" value="Sony Alpha a7 III">
+                            <strong>Sony Alpha a7 III $1998</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Canon EOS R5 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/canonEOSR5.jpeg" alt="Canon EOS R5" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[4]" value="Canon EOS R5">
+                            <strong>Canon EOS R5 $3899</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Nikon Z7 II -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/nikonZ7II.jpeg" alt="Nikon Z7 II" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[5]" value="Nikon Z7 II">
+                            <strong>Nikon Z7 II $2996</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Sony Alpha a6600 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/sonyA6600.jpeg" alt="Sony Alpha a6600" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[6]" value="Sony Alpha a6600">
+                            <strong>Sony Alpha a6600 $1398</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Fujifilm X-T4 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/fujifilmXT4.jpeg" alt="Fujifilm X-T4" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[7]" value="Fujifilm X-T4">
+                            <strong>Fujifilm X-T4 $1699</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Olympus OM-D E-M1 Mark III -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/olympusEM1.jpeg" alt="Olympus OM-D E-M1 Mark III" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[8]" value="Olympus OM-D E-M1 Mark III">
+                            <strong>Olympus OM-D E-M1 Mark III $1799</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Panasonic Lumix GH5 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/panasonicGH5.jpeg" alt="Panasonic Lumix GH5" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[9]" value="Panasonic Lumix GH5">
+                            <strong>Panasonic Lumix GH5 $1297</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Canon EOS 90D -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/canon90D.jpeg" alt="Canon EOS 90D" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[10]" value="Canon EOS 90D">
+                            <strong>Canon EOS 90D $1199</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Nikon D5600 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/nikonD5600.jpeg" alt="Nikon D5600" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[11]" value="Nikon D5600">
+                            <strong>Nikon D5600 $696</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Sony Alpha a6000 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/sonyA6000.jpeg" alt="Sony Alpha a6000" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[12]" value="Sony Alpha a6000">
+                            <strong>Sony Alpha a6000 $648</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Pentax K-3 Mark III -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/pentaxK3.jpeg" alt="Pentax K-3 Mark III" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[13]" value="Pentax K-3 Mark III">
+                            <strong>Pentax K-3 Mark III $1996</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Leica Q2 -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/leicaQ2.jpeg" alt="Leica Q2" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[14]" value="Leica Q2">
+                            <strong>Leica Q2 $4995</strong>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Hasselblad X1D II 50C -->
+                <div class="product">
+                    <div class="box">
+                        <img src="images/hasselbladX1D.jpeg" alt="Hasselblad X1D II 50C" />
+                        <div class="form-control">
+                            <input type="checkbox" name="product[15]" value="Hasselblad X1D II 50C">
+                            <strong>Hasselblad X1D II 50C $5750</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row shop-control">
+                <input id="checkout-button" type="submit" value="checkout" />
+            </div>
+            <div class="row">
+                <span id="info" class="info"></span>
+            </div>
+            <!-- Offers Section -->
+        <section class="offers">
+            <h2>Special Offers</h2>
+            <div class="offer">
+                <img src="images/offer1.jpeg" alt="Offer 1">
+                <p>Discount on Canon EOS 5D Mark IV - Now only $2299!</p>
+            </div>
+            <div class="offer">
+                <img src="images/offer2.jpeg" alt="Offer 2">
+                <p>Bundle Deal: Buy Nikon D850 and get a free lens!</p>
+            </div>
+            <!-- Add more offers as needed -->
+        </section>
+        </form>
+    </main>
+    <footer>
+        <!-- Footer Content -->
+        <p>&copy; 2024 CAM_CONNECT. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:support@cam_connect.com">support@cam_connect.com</a></p>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+    
+</body>
+
+</html>
